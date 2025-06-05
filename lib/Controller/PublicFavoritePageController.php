@@ -148,6 +148,7 @@ class PublicFavoritePageController extends PublicShareController {
 			$csp->addAllowedImageDomain('https://*.cartocdn.com');
 			$csp->addAllowedImageDomain('https://*.ssl.fastly.net');
 			$csp->addAllowedImageDomain('https://*.openstreetmap.se');
+			$csp->addAllowedImageDomain('https://*.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png');
 
 			// default routing engine
 			$csp->addAllowedConnectDomain('https://*.project-osrm.org');

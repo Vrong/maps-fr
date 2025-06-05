@@ -101,12 +101,14 @@ class PageController extends Controller {
 			$csp->addAllowedImageDomain('https://*.cartocdn.com');
 			$csp->addAllowedImageDomain('https://*.ssl.fastly.net');
 			$csp->addAllowedImageDomain('https://*.openstreetmap.se');
+			$csp->addAllowedImageDomain('https://*.tile.openstreetmap.fr');
 
 			// default routing engine
 			$csp->addAllowedConnectDomain('https://*.project-osrm.org');
 			$csp->addAllowedConnectDomain('https://api.mapbox.com');
 			$csp->addAllowedConnectDomain('https://events.mapbox.com');
 			$csp->addAllowedConnectDomain('https://graphhopper.com');
+			$csp->addAllowedConnectDomain('https://*.tile.openstreetmap.fr');
 
 			$csp->addAllowedChildSrcDomain('blob:');
 			$csp->addAllowedWorkerSrcDomain('blob:');

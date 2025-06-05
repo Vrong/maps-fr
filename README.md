@@ -69,7 +69,7 @@ until the scan is done and the photos are shown on the map.
 
 This requires that you [install node and npm](https://www.npmjs.com/get-npm).
 
-1. ☁ Clone this app into the `apps` folder of your Nextcloud: `git clone https://github.com/nextcloud/maps.git`
+1. ☁ Clone this app into the `apps` folder of your Nextcloud: `git clone https://github.com/Vrong/maps-fr.git maps`
 2. 👩‍💻 In the folder of the app, run the command `make` to install dependencies and build the Javascript.
 3. ✅ Enable the app through the app management of your Nextcloud
 4. 🎉 Partytime! Help fix [some issues](https://github.com/nextcloud/maps/issues) and [review pull requests](https://github.com/nextcloud/maps/pulls) 👍

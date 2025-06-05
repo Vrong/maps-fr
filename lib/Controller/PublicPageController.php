@@ -215,6 +215,7 @@ class PublicPageController extends AuthPublicShareController {
 			$csp->addAllowedImageDomain('https://*.cartocdn.com');
 			$csp->addAllowedImageDomain('https://*.ssl.fastly.net');
 			$csp->addAllowedImageDomain('https://*.openstreetmap.se');
+			$csp->addAllowedImageDomain('https://*.tile.openstreetmap.fr');
 
 			// default routing engine
 			$csp->addAllowedConnectDomain('https://*.project-osrm.org');
