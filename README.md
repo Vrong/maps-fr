@@ -6,7 +6,7 @@
 
 ![](screenshots/screenshot1.png)
 
-- **🗺 Beautiful map:** Using [OpenStreetMap](https://www.openstreetmap.org) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨
+- **🗺 Beautiful map:** Using [OpenStreetMap France](https://www.openstreetmap.fr/) and [Leaflet](https://leafletjs.com), you can choose between standard map, satellite, topographical, dark mode or even watercolor! 🎨
 - **⭐ Favorites:** Save your favorite places, privately! Sync with [GNOME Maps](https://github.com/nextcloud/maps/issues/30) and mobile apps is planned.
 - **🧭 Routing:** Possible using either [OSRM](http://project-osrm.org), [GraphHopper](https://www.graphhopper.com) or [Mapbox](https://www.mapbox.com).
 - **🖼 Photos on the map:** No more boring slideshows, just show directly where you were!

@@ -55,13 +55,14 @@ export const Layers = [
 		id: LayerIds.OSM,
 		name: 'Street map',
 		type: LayerTypes.Base,
-		url: 'https://c.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png',
-		attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+		url: 'https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png',
+		attribution: '&copy; <a href="https://openstreetmap.fr">OpenStreetMap France</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
 		options: {
 			id: 'Open Street Map',
 			noWrap: false,
 			detectRetina: false,
 			maxZoom: 19,
+			subdomains: 'abc',
 		},
 	},
 	{
